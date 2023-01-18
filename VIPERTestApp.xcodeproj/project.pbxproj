@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		C41C998B2978A55F002AD3BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41C998A2978A55F002AD3BD /* AppDelegate.swift */; };
 		C41C998D2978A55F002AD3BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41C998C2978A55F002AD3BD /* SceneDelegate.swift */; };
-		C41C998F2978A55F002AD3BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41C998E2978A55F002AD3BD /* ViewController.swift */; };
+		C41C998F2978A55F002AD3BD /* GreetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41C998E2978A55F002AD3BD /* GreetingViewController.swift */; };
 		C41C99922978A55F002AD3BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C41C99902978A55F002AD3BD /* Main.storyboard */; };
 		C41C99942978A561002AD3BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C41C99932978A561002AD3BD /* Assets.xcassets */; };
 		C41C99972978A561002AD3BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C41C99952978A561002AD3BD /* LaunchScreen.storyboard */; };
+		C41C99A12978A865002AD3BD /* GreetingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41C99A02978A865002AD3BD /* GreetingPresenter.swift */; };
+		C41C99A32978A872002AD3BD /* GreetingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41C99A22978A872002AD3BD /* GreetingInteractor.swift */; };
+		C41C99A52978A88E002AD3BD /* GreetingConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41C99A42978A88E002AD3BD /* GreetingConfigurator.swift */; };
+		C41C99A72978A898002AD3BD /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41C99A62978A898002AD3BD /* Person.swift */; };
+		C41C99AA2978A8BB002AD3BD /* GreetingViewInputProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41C99A92978A8BB002AD3BD /* GreetingViewInputProtocol.swift */; };
+		C41C99AC2978A8CC002AD3BD /* GreetingViewOutputProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41C99AB2978A8CC002AD3BD /* GreetingViewOutputProtocol.swift */; };
+		C41C99B02978AD2C002AD3BD /* GreetingInteractorInputProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41C99AF2978AD2C002AD3BD /* GreetingInteractorInputProtocol.swift */; };
+		C41C99B22978AD40002AD3BD /* GreetingInteractorOutputProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41C99B12978AD40002AD3BD /* GreetingInteractorOutputProtocol.swift */; };
+		C41C99B42978B112002AD3BD /* GreetingConfiguratorInputProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41C99B32978B112002AD3BD /* GreetingConfiguratorInputProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C41C99872978A55F002AD3BD /* VIPERTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPERTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C41C998A2978A55F002AD3BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C41C998C2978A55F002AD3BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C41C998E2978A55F002AD3BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C41C998E2978A55F002AD3BD /* GreetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingViewController.swift; sourceTree = "<group>"; };
 		C41C99912978A55F002AD3BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C41C99932978A561002AD3BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C41C99962978A561002AD3BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C41C99982978A561002AD3BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C41C99A02978A865002AD3BD /* GreetingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingPresenter.swift; sourceTree = "<group>"; };
+		C41C99A22978A872002AD3BD /* GreetingInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingInteractor.swift; sourceTree = "<group>"; };
+		C41C99A42978A88E002AD3BD /* GreetingConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingConfigurator.swift; sourceTree = "<group>"; };
+		C41C99A62978A898002AD3BD /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		C41C99A92978A8BB002AD3BD /* GreetingViewInputProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingViewInputProtocol.swift; sourceTree = "<group>"; };
+		C41C99AB2978A8CC002AD3BD /* GreetingViewOutputProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingViewOutputProtocol.swift; sourceTree = "<group>"; };
+		C41C99AF2978AD2C002AD3BD /* GreetingInteractorInputProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingInteractorInputProtocol.swift; sourceTree = "<group>"; };
+		C41C99B12978AD40002AD3BD /* GreetingInteractorOutputProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingInteractorOutputProtocol.swift; sourceTree = "<group>"; };
+		C41C99B32978B112002AD3BD /* GreetingConfiguratorInputProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingConfiguratorInputProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +76,46 @@
 			children = (
 				C41C998A2978A55F002AD3BD /* AppDelegate.swift */,
 				C41C998C2978A55F002AD3BD /* SceneDelegate.swift */,
-				C41C998E2978A55F002AD3BD /* ViewController.swift */,
+				C41C99A82978A89D002AD3BD /* Models */,
+				C41C999F2978A82A002AD3BD /* Modules */,
 				C41C99902978A55F002AD3BD /* Main.storyboard */,
 				C41C99932978A561002AD3BD /* Assets.xcassets */,
 				C41C99952978A561002AD3BD /* LaunchScreen.storyboard */,
 				C41C99982978A561002AD3BD /* Info.plist */,
 			);
 			path = VIPERTestApp;
+			sourceTree = "<group>";
+		};
+		C41C999E2978A81D002AD3BD /* Greeting */ = {
+			isa = PBXGroup;
+			children = (
+				C41C998E2978A55F002AD3BD /* GreetingViewController.swift */,
+				C41C99A02978A865002AD3BD /* GreetingPresenter.swift */,
+				C41C99A22978A872002AD3BD /* GreetingInteractor.swift */,
+				C41C99A42978A88E002AD3BD /* GreetingConfigurator.swift */,
+				C41C99A92978A8BB002AD3BD /* GreetingViewInputProtocol.swift */,
+				C41C99AB2978A8CC002AD3BD /* GreetingViewOutputProtocol.swift */,
+				C41C99AF2978AD2C002AD3BD /* GreetingInteractorInputProtocol.swift */,
+				C41C99B12978AD40002AD3BD /* GreetingInteractorOutputProtocol.swift */,
+				C41C99B32978B112002AD3BD /* GreetingConfiguratorInputProtocol.swift */,
+			);
+			path = Greeting;
+			sourceTree = "<group>";
+		};
+		C41C999F2978A82A002AD3BD /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				C41C999E2978A81D002AD3BD /* Greeting */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		C41C99A82978A89D002AD3BD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C41C99A62978A898002AD3BD /* Person.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +189,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C41C998F2978A55F002AD3BD /* ViewController.swift in Sources */,
+				C41C998F2978A55F002AD3BD /* GreetingViewController.swift in Sources */,
+				C41C99A52978A88E002AD3BD /* GreetingConfigurator.swift in Sources */,
 				C41C998B2978A55F002AD3BD /* AppDelegate.swift in Sources */,
+				C41C99B22978AD40002AD3BD /* GreetingInteractorOutputProtocol.swift in Sources */,
 				C41C998D2978A55F002AD3BD /* SceneDelegate.swift in Sources */,
+				C41C99AA2978A8BB002AD3BD /* GreetingViewInputProtocol.swift in Sources */,
+				C41C99A72978A898002AD3BD /* Person.swift in Sources */,
+				C41C99A12978A865002AD3BD /* GreetingPresenter.swift in Sources */,
+				C41C99B02978AD2C002AD3BD /* GreetingInteractorInputProtocol.swift in Sources */,
+				C41C99B42978B112002AD3BD /* GreetingConfiguratorInputProtocol.swift in Sources */,
+				C41C99AC2978A8CC002AD3BD /* GreetingViewOutputProtocol.swift in Sources */,
+				C41C99A32978A872002AD3BD /* GreetingInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
